@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/smallcards",
+      "handler": "smallcard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smallcards/count",
+      "handler": "smallcard.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smallcards/:id",
+      "handler": "smallcard.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/smallcards",
+      "handler": "smallcard.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/smallcards/:id",
+      "handler": "smallcard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/smallcards/:id",
+      "handler": "smallcard.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

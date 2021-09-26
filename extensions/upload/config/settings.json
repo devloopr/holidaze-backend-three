@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "dvloopr",
+    "api_key": "836537482286759",
+    "api_secret": "zPskM58U4ZCnw7FWONr3bTV5ycM"
+  }
+}

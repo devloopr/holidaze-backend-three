@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "smallcards",
+  "info": {
+    "name": "smallcard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "location": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    }
+  }
+}
